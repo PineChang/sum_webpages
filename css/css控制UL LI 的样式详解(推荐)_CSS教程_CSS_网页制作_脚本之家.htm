@@ -1,0 +1,446 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0034)http://www.jb51.net/css/44250.html -->
+<!DOCTYPE html PUBLIC "" ""><HTML lang="zh-CN"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META charset="gb2312"> 
+<META name="viewport" content="width=device-width, initial-scale=1"> 
+<META http-equiv="Cache-Control" content="no-siteapp"> 
+<META http-equiv="Cache-Control" content="no-transform"> 
+<META http-equiv="X-UA-Compatible" content="IE=EDGE"> <TITLE>css控制UL LI 
+的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家</TITLE> 
+<META name="keywords" content="UL,LI"> 
+<META name="description" content="DIV+CSS里，我们用得最多的就是ul li来显示数据，如新闻按钮等。下面给大家一个css ul li的例子供学习"> 
+<LINK href="http://m.jb51.net/css/44250.html" rel="alternate" media="only screen and(max-width: 640px)"> 
+<META http-equiv="mobile-agent" content="format=html5; url=http://m.jb51.net/css/44250.html"> 
+<META http-equiv="mobile-agent" content="format=xhtml; url=http://m.jb51.net/css/44250.html"> 
+<SCRIPT type="text/javascript">
+var tougao="1";var downlm="art";
+(function(){var reWriteUrl=function(url){if(url){var Splits=url.split("/"),siteName=window.location.pathname;if(typeof siteName!=="undefined"){return"http://m.jb51.net"+siteName}}};if(/Android|webOS|iPhone|iPad|Windows Phone|iPod|BlackBerry|SymbianOS|Nokia|Mobile/i.test(navigator.userAgent)){var url=window.location.href;var pathname=window.location.pathname;if(url.indexOf("?pc")<0){try{window.location.href=reWriteUrl(url)}catch(e){}}}})();
+</SCRIPT>
+ <LINK href="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/base.css" rel="stylesheet" 
+type="text/css"> <LINK href="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/home.css" 
+rel="stylesheet" type="text/css"> 
+<SCRIPT src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/jquery.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/base.js" type="text/javascript"></SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.9600.18377"></HEAD> 
+<BODY><!--head Star --> 
+<DIV id="head">
+<DIV class="toolBar">
+<DIV class="main"><!--topNav Star -->     
+<DIV class="topNav clearfix">
+<UL class="navList fl">
+  <LI>
+  <DIV class="one"><A href="http://www.jb51.net/" 
+  target="_blank">脚本之家</A></DIV></LI>
+  <LI>
+  <DIV class="one"><A href="http://www.jb51.net/softs/" target="_blank">软件下载<I 
+  class="icon"></I></A></DIV>
+  <DIV class="two"><A href="http://www.jb51.net/softs/android.html" target="_blank">android软件</A><A 
+  href="http://www.jb51.net/softs/mac.html" target="_blank">MAC软件</A><A href="http://www.jb51.net/qudong/" 
+  target="_blank">驱动下载</A><A href="http://www.jb51.net/fonts/" 
+  target="_blank">字体下载</A><A href="http://www.jb51.net/dll/" 
+  target="_blank">DLL下载</A></DIV></LI>
+  <LI>
+  <DIV class="one"><A href="http://www.jb51.net/codes/" target="_blank">源码下载<I 
+  class="icon"></I></A></DIV>
+  <DIV class="two"><A href="http://www.jb51.net/codes/asp.html" 
+  target="_blank">asp源码</A><A href="http://www.jb51.net/codes/php.html" target="_blank">php源码</A><A 
+  href="http://www.jb51.net/codes/aspnet.html" target="_blank">asp.net源码</A><A 
+  href="http://www.jb51.net/codes/jsp.html" target="_blank">jsp源码</A><A href="http://www.jb51.net/codes/editor.html" 
+  target="_blank">网页编辑器</A><A href="http://www.jb51.net/codes/list123_1.html" 
+  target="_blank">数据库管理</A><A href="http://www.jb51.net/jiaoben/" target="_blank">脚本下载</A></DIV></LI>
+  <LI>
+  <DIV class="one"><A href="http://tools.jb51.net/" target="_blank">在线工具<I 
+  class="icon"></I></A></DIV>
+  <DIV class="two"><A href="http://www.jb51.net/shouce/" 
+  target="_blank">在线手册</A><A href="http://www.jb51.net/tools/cssyasuo.shtml" 
+  target="_blank">CSS格式化</A><A href="http://tools.jb51.net/tools/js_geshihua.asp" 
+  target="_blank">JS格式化</A><A href="http://www.jb51.net/tools/html-js.htm" 
+  target="_blank">Html转化为Js</A><A href="http://tools.jb51.net/regex/javascript" 
+  target="_blank">js正则表达式</A></DIV></LI>
+  <LI>
+  <DIV class="one"><A href="http://www.jb51.net/w3school/" 
+  target="_blank">网页教程基础</A></DIV></LI>
+  <LI>
+  <DIV class="one"><A href="http://s.jb51.net/" 
+  target="_blank">服务器常用软件</A></DIV></LI>
+  <LI>
+  <DIV class="one"><A href="http://m.jb51.net/" target="_blank">手机版</A></DIV>
+  <DIV class="two"><IMG src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/m.jb51.net.png" 
+  data-baiduimageplus-ignore=""></DIV></LI>
+  <LI class="watch">
+  <DIV class="one"><A href="http://weibo.com/jb51net" target="_blank" rel="nofollow"><I 
+  class="icon"></I>关注微信</A></DIV>
+  <DIV class="two"><IMG src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/weixin_200.gif" 
+  data-baiduimageplus-ignore=""></DIV></LI></UL>
+<DIV class="navUser mt5 fr" id="jb51_topbar"></DIV></DIV><!--topNav End -->   
+</DIV></DIV>
+<DIV class="main clearfix">
+<DIV class="mtb10 clearfix">
+<DIV class="logo"><A href="http://www.jb51.net/"><IMG title="脚本之家" alt="脚本之家" 
+src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/logo.gif"></A></DIV>
+<DIV class="logom fl"><SPAN class="jbTestPos" id="logo_m"></SPAN></DIV>
+<DIV class="logor fr"><SPAN class="jbTestPos" id="logo_r"></SPAN></DIV></DIV><!-- 导航--> 
+<DIV class="nav_top clearfix">
+<UL>
+  <LI><A href="http://www.jb51.net/web/">网页制作</A></LI>
+  <LI><A href="http://www.jb51.net/list/index_1.htm">网络编程</A></LI>
+  <LI><A href="http://www.jb51.net/list/index_96.htm">脚本专栏</A></LI>
+  <LI><A href="http://www.jb51.net/jiaoben/">脚本下载</A></LI>
+  <LI><A href="http://www.jb51.net/list/index_104.htm">数据库</A></LI>
+  <LI><A href="http://www.jb51.net/cms/">CMS教程</A></LI>
+  <LI><A href="http://www.jb51.net/books/">电子书籍</A></LI>
+  <LI><A href="http://www.jb51.net/pingmian/">平面设计</A></LI>
+  <LI><A href="http://www.jb51.net/media/">媒体动画</A></LI>
+  <LI><A href="http://www.jb51.net/os/">操作系统</A></LI>
+  <LI><A href="http://www.jb51.net/yunying/">网站运营</A></LI>
+  <LI><A href="http://www.jb51.net/hack/">网络安全</A></LI>
+  <LI class="last"><A href="http://www.jb51.net/shouce/">在线手册</A></LI></UL></DIV><!--导航结束--> 
+<DIV class="NavBar clearfix ptb10">
+<DIV class="fl w690">
+<DIV class="box mb15 mt10"><I class="icon"></I>您的位置： 				 <A href="http://www.jb51.net/">主页</A> 
+&gt; <A href="http://www.jb51.net/web/">网页制作</A> &gt; <A href="http://www.jb51.net/css/">CSS</A> 
+&gt; <A href="http://www.jb51.net/css/list539_1.html">CSS教程</A> &gt; 
+</DIV></DIV>
+<DIV class="fr w300">
+<DIV class="search">
+<FORM action="http://so.jb51.net/cse/search" 
+target="_blank"><INPUT name="s" type="hidden" value="10520733385329581432">     
+<INPUT name="ie" type="hidden" value="gbk">     <INPUT name="q" class="key_input" type="text"> 
+    <INPUT class="c_btn" type="submit" value="搜索"> 
+</FORM></DIV></DIV></DIV></DIV><!--head End --> 
+<DIV class="main mb10 clearfix">
+<DIV class="clearfix"><SPAN class="jbTestPos" id="tonglan1"></SPAN></DIV></DIV><!--content Star --> 
+<DIV id="contents">
+<DIV class="main clearfix">
+<DIV class="w690 fl">
+<DIV class="article-content border">
+<DIV class="title">
+<H1 class="YaHei">css控制UL LI 的样式详解(推荐)</H1>
+<P>作者：佚名  字体：[<A href="javascript:turnbig()">增加</A> <A href="javascript:turnsmall()">减小</A>] 
+来源：互联网 时间：05-13 00:58:57<A 
+href="http://www.jb51.net/css/44250.html#comments">我要评论</A></P></DIV>
+<DIV class="art_desc mt10">DIV+CSS里，我们用得最多的就是ul li来显示数据，如新闻按钮等。下面给大家一个css ul 
+li的例子供学习</DIV>
+<DIV id="con_all">
+<DIV id="con_da1"><SPAN class="jbTestPos" id="gg_l"></SPAN></DIV>
+<DIV id="con_da2"><SPAN class="jbTestPos" id="gg_r"></SPAN></DIV></DIV>
+<DIV id="content"><BR>
+<DIV class="msgheader">
+<DIV class="right"><SPAN style="cursor: pointer;" onclick="copycode(getid('phpcode10'));"><U>复制代码</U></SPAN></DIV>代码如下:</DIV>
+<DIV class="msgborder" id="phpcode10"><BR>&lt;div id="menu"&gt; <BR>&lt;ul&gt; 
+<BR>&lt;li&gt;&lt;a href="#"&gt;首页&lt;/a&gt;&lt;/li&gt; <BR>&lt;li 
+class="menuDiv"&gt;&lt;/li&gt; <BR>&lt;li&gt;&lt;a 
+href="#"&gt;博客&lt;/a&gt;&lt;/li&gt; <BR>&lt;li class="menuDiv"&gt;&lt;/li&gt; 
+<BR>&lt;li&gt;&lt;a href="#"&gt;设计&lt;/a&gt;&lt;/li&gt; <BR>&lt;li 
+class="menuDiv"&gt;&lt;/li&gt; <BR>&lt;li&gt;&lt;a 
+href="#"&gt;相册&lt;/a&gt;&lt;/li&gt; <BR>&lt;li class="menuDiv"&gt;&lt;/li&gt; 
+<BR>&lt;li&gt;&lt;a href="#"&gt;论坛&lt;/a&gt;&lt;/li&gt; <BR>&lt;li 
+class="menuDiv"&gt;&lt;/li&gt; <BR>&lt;li&gt;&lt;a 
+href="#"&gt;关于&lt;/a&gt;&lt;/li&gt; <BR>&lt;/ul&gt; <BR>&lt;/div&gt; 
+<BR></DIV><BR>CSS: <BR><BR>
+<DIV class="msgheader">
+<DIV class="right"><SPAN style="cursor: pointer;" onclick="copycode(getid('phpcode11'));"><U>复制代码</U></SPAN></DIV>代码如下:</DIV>
+<DIV class="msgborder" id="phpcode11"><BR>#menu ul {list-style:none;margin:0px;} 
+<BR>#menu ul li {float:left;} <BR></DIV><BR><BR><STRONG>解释一下： 
+<BR></STRONG><BR>#menu ul {list-style:none;margin:0px;} 
+<BR>list-style:none，这一句是取消列表前点，因为我们不需要这些点。 
+<BR>margin:0px，这一句是删除UL的缩进，这样做可以使所有的列表内容都不缩进。 <BR><BR>#menu ul li {float:left;} 
+<BR>这里的 float:left 的左右是让内容都在同一行显示，因此使用了浮动属性(float)。 
+<BR><BR><STRONG>CSS中的ul与li样式详解<BR></STRONG><BR>ul和li列表是使用CSS布局页面时常用的元素。在CSS中，有专门控制列表表现的属性，常用的有list-style-type属性、list-style-image属性、list-style-position属性和list-style属性。 
+<P>　　<STRONG>一、list-style-type属性</STRONG></P>
+<P>　　list-style-type属性是用来定义li列表的项目符号的，即列表前面的修饰。list-style-type属性是一个可继承的属性。其语法结构如下：（列举一些常用的属性值）</P>
+<P>　　list-style-type:none/disc/circle/square/demical/lower-alpha/upper-alpha/lower-roman/upper-roman</P>
+<P>　　list-style-type属性的属性值有很多，在这里我们只是列举了比较常用的几个。</P>none：不使用项目符号。 disc：实心圆。 
+circle：空心圆。 square：实心方块。 demical：阿拉伯数字。 lower-alpha：小写英文字母。 upper-alpha：大写英文字母。 
+lower-roman：小写罗马数字。 upper-roman：大写罗马数字。 
+<P>　　使用list-style-type属性的示例代码如下：</P>
+<P>li{<BR>list-style-type:square;}</P>
+<P>&lt;ul&gt;<BR>&lt;li&gt;这里是列表内容&lt;/li&gt;<BR>&lt;li&gt;这里是列表内容&lt;/li&gt;<BR>&lt;li&gt;这里是列表内容&lt;/li&gt;<BR>&lt;/ul&gt;</P>
+<P>　　该样式应用到页面的效果如下图所示。</P>
+<P align="center"><A href="http://hiphotos.baidu.com/eb21/pic/item/8a0007529cec58240df3e394.jpg" 
+target="_blank"><IMG class="blogimg" alt="" src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/201205130056212.jpg" 
+border="0" small="0"></A></P>
+<P>　　<STRONG>二、list-style-image属性</STRONG></P>
+<P>　　list-style-image属性用来定义使用图片代替项目符号。它也是一个可继承属性，其语法结构如下：</P>
+<P>　　list-style-image:none/url</P>
+<P>　　list-style-image属性可以取两个值：</P>none：没有替换的图片。 url：要替换图片的路径。 
+<P>　　来看一段代码：</P>
+<P>li{<BR>list-style-image:url(images/bg03.gif);}</P>
+<P>&lt;ul&gt;<BR>&lt;li&gt;这里是列表内容&lt;/li&gt;<BR>&lt;li&gt;这里是列表内容&lt;/li&gt;<BR>&lt;li&gt;这里是列表内容&lt;/li&gt;<BR>&lt;/ul&gt;</P>
+<P>　　效果如下图。</P>
+<P align="center"><IMG class="blogimg" alt="" src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/201205130056213.gif" 
+border="0" small="0"></P>
+<P>　　<STRONG>三、list-style-position属性</STRONG></P>
+<P>　　list-style-position属性，是用来定义项目符号在列表中显示位置的属性。它同样是一个可继承的属性，语法结构如下：</P>
+<P>　　list-style-position:inside/outside</P>inside：项目符号放置在文本以内。 
+outside：项目符号放置在文本以外。 
+<P>　　使用list-style-position属性的示例如下：</P>
+<P>li{<BR>list-style-type:square;<BR>list-style-position:outside;}</P>
+<P>&lt;ul&gt;<BR>&lt;li&gt;这里是使用list-style-position属性值为outside的示例。请注意换行以后项目符号的位置。&lt;/li&gt;<BR>&lt;li&gt;这里是列表内容&lt;/li&gt;<BR>&lt;li&gt;这里是列表内容&lt;/li&gt;<BR>&lt;/ul&gt;</P>
+<P>　　效果如下图所示。</P>
+<P align="center"><IMG class="blogimg" alt="" src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/201205130056214.gif" 
+border="0" small="0"></P>
+<P>　　再来看一下属性值为inside的样式。</P>
+<P>li{<BR>list-style-type:square;<BR>list-style-position:inside;}</P>
+<P>&lt;ul&gt;<BR>&lt;li&gt;这里是使用list-style-position属性值为inside的示例。请注意换行以后项目符号的位置。&lt;/li&gt;<BR>&lt;li&gt;这里是列表内容&lt;/li&gt;<BR>&lt;li&gt;这里是列表内容&lt;/li&gt;<BR>&lt;/ul&gt;</P>
+<P align="center"><IMG class="blogimg" alt="" src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/201205130056215.gif" 
+border="0" small="0"></P>
+<P>　　<STRONG>四、list-style属性</STRONG></P>
+<P>　　list-style属性是综合设置li样式的属性，也是一个可以继承的属性，语法结构如下：</P>
+<P>　　li-style:list-style-type/list-style-image/list-style-position</P>
+<P>　　各个值的位置可以交换。比如：</P>
+<P>li{<BR>list-style:url(images/bg03.gif) inside;}</P>
+<P>&lt;ul&gt;<BR>&lt;li&gt;这里是使用list-style属性的示例。请注意换行以后项目符号的位置。&lt;/li&gt;<BR>&lt;li&gt;这里是列表内容&lt;/li&gt;<BR>&lt;/ul&gt;</P>
+<P>　　可以看一下应用到页面的效果。</P>
+<P align="center"><IMG class="blogimg" alt="" src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/201205130056216.gif" 
+border="0" small="0"></P></DIV><!--endmain--> 
+<DIV class="lbd clearfix"><SPAN class="jbTestPos" id="art_down"></SPAN> </DIV>
+<DIV id="shoucang"></DIV>
+<DIV class="tags mt10">Tag：<B><A href="http://www.jb51.net/do/tag/ul/" target="_blank">ul</A></B> 
+&nbsp; <B><A href="http://www.jb51.net/do/tag/li/" target="_blank">li</A></B> 
+&nbsp; </DIV>
+<DIV class="relatedarticle clearfix mt5">
+<H2>相关文章</H2>
+<UL>
+  <LI><SPAN>2016-06-17</SPAN><A href="http://www.jb51.net/css/469441.html" 
+  target="_blank">浅谈CSS在前端优化中一些值得注意的关键点</A></LI>
+  <LI><SPAN>2016-06-16</SPAN><A href="http://www.jb51.net/css/469213.html" 
+  target="_blank">巧用box-shadow实现布局区域间隔变色</A></LI>
+  <LI><SPAN>2016-06-16</SPAN><A href="http://www.jb51.net/css/469033.html" 
+  target="_blank">CSS控制前端图片HTTP请求的各种情况示例</A></LI>
+  <LI><SPAN>2016-06-14</SPAN><A href="http://www.jb51.net/css/468491.html" 
+  target="_blank">CSS美化半个字符的巧妙方法</A></LI>
+  <LI><SPAN>2016-06-14</SPAN><A href="http://www.jb51.net/css/468338.html" 
+  target="_blank">深入理解DIV和SPAN的区别</A></LI>
+  <LI><SPAN>2016-06-14</SPAN><A href="http://www.jb51.net/css/468330.html" 
+  target="_blank">设置层的漂移的简单实现方法</A></LI>
+  <LI><SPAN>2016-06-14</SPAN><A href="http://www.jb51.net/css/468282.html" 
+  target="_blank">浅谈CSS块级元素与行内元素(内联元素)的区别和联系 </A></LI>
+  <LI><SPAN>2016-06-14</SPAN><A href="http://www.jb51.net/css/468276.html" 
+  target="_blank">CSS 实现垂直居中的几种方法(必看)</A></LI>
+  <LI><SPAN>2016-06-13</SPAN><A href="http://www.jb51.net/css/467990.html" 
+  target="_blank">CSS属性text-overflow的使用问题</A></LI>
+  <LI><SPAN>2016-06-12</SPAN><A href="http://www.jb51.net/css/467675.html" 
+  target="_blank">css图标与文字对齐的两种实现方法</A></LI>
+  <LI><SPAN>2016-06-12</SPAN><A href="http://www.jb51.net/css/467633.html" 
+  target="_blank">CSS基础知识之float详解</A></LI>
+  <LI><SPAN>2016-06-12</SPAN><A href="http://www.jb51.net/css/467625.html" 
+  target="_blank">浅谈CSS的Display属性可能的值</A></LI></UL></DIV>
+<DIV class="lbd clearfix mt5"><SPAN class="jbTestPos" id="art_down2"></SPAN> 
+</DIV><A href="http://www.jb51.net/css/44250.html#comments"></A> 
+<DIV id="comments">
+<DIV id="SOHUCS" sid="44250"></DIV></DIV></DIV><!--endborder-->       </DIV><!--end fl--> 
+      
+<DIV class="w300 fr">
+<DIV class="r300 clearfix"><SPAN class="jbTestPos" id="r1gg"></SPAN></DIV>
+<DIV class="subcate bord mt10">
+<DIV class="asidetit cl">
+<H3>文章分类</H3></DIV>
+<DIV class="subcatec">
+<UL>
+  <LI><I></I><A href="http://www.jb51.net/css/list539_1.html" 
+  target="_blank">CSS教程</A></LI>
+  <LI><I></I><A href="http://www.jb51.net/css/list591_1.html" 
+  target="_blank">css3</A></LI>
+  <LI><I></I><A href="http://www.jb51.net/css/list535_1.html" 
+  target="_blank">Div+CSS教程</A></LI>
+  <LI><I></I><A href="http://www.jb51.net/css/list536_1.html" 
+  target="_blank">Web标准教程</A></LI>
+  <LI><I></I><A href="http://www.jb51.net/css/list538_1.html" 
+  target="_blank">浏览器兼容教程</A></LI>
+  <LI><I></I><A href="http://www.jb51.net/css/list537_1.html" 
+  target="_blank">CSS布局实例</A></LI>
+  <DIV class="clearfix"></DIV></UL></DIV></DIV>
+<DIV class="r300 clearfix mt10"><SPAN class="jbTestPos" id="idctu"></SPAN></DIV>
+<DIV class="tabTitleBar mt10 bgf borderTblue">
+<DIV class="borderTnone pb10 YaHei">
+<H4 class="blue">大家感兴趣的内容</H4>
+<UL class="newsList newList-in">
+  <LI><EM class="no1">1</EM><A href="http://www.jb51.net/css/44250.html" target="_blank">css控制UL 
+  LI 的样式详解(推荐)</A></LI>
+  <LI><EM class="no2">2</EM><A href="http://www.jb51.net/css/33920.html" target="_blank">HTML设置超链接字体颜色和点击后的字体颜色</A></LI>
+  <LI><EM class="no3">3</EM><A href="http://www.jb51.net/css/28259.html" target="_blank">div水平垂直居中的完美解决方案</A></LI>
+  <LI><EM class="no4">4</EM><A href="http://www.jb51.net/css/22930.html" target="_blank">CSS 
+  漂亮搜索框美化代码</A></LI>
+  <LI><EM class="no5">5</EM><A href="http://www.jb51.net/css/23682.html" target="_blank">CSS 
+  首行缩进两个文字</A></LI>
+  <LI><EM class="no6">6</EM><A href="http://www.jb51.net/css/67702.html" target="_blank">css 
+  中的background:transparent到底是什么意思有什么</A></LI>
+  <LI><EM class="no7">7</EM><A href="http://www.jb51.net/css/148841.html" 
+  target="_blank">CSS自定义select下拉选择框的样式(不用其他标签模拟)</A></LI>
+  <LI><EM class="no8">8</EM><A href="http://www.jb51.net/css/18610.html" target="_blank">css 
+  textarea 高度自适应,无滚动条</A></LI>
+  <LI><EM class="no9">9</EM><A href="http://www.jb51.net/css/24734.html" target="_blank">css 
+  设置全屏背景图片</A></LI>
+  <LI><EM class="no10">10</EM><A href="http://www.jb51.net/css/42638.html" 
+  target="_blank">CSS圆角效果 
+-webkit-border-radius(CSS3中border-rad</A></LI></UL></DIV></DIV>
+<DIV class="r300 clearfix mt10"><SPAN class="jbTestPos" 
+id="idctu1"></SPAN></DIV>
+<DIV class="tabTitleBar mt10 bgf borderTblue">
+<DIV class="borderTnone pb10 YaHei">
+<H4 class="blue">最近更新的内容</H4>
+<UL class="newsListA">
+  <LI><A href="http://www.jb51.net/css/469441.html" 
+  target="_blank">浅谈CSS在前端优化中一些值得注意的关键点</A></LI>
+  <LI><A href="http://www.jb51.net/css/469213.html" 
+  target="_blank">巧用box-shadow实现布局区域间隔变色</A></LI>
+  <LI><A href="http://www.jb51.net/css/469033.html" 
+  target="_blank">CSS控制前端图片HTTP请求的各种情况示例</A></LI>
+  <LI><A href="http://www.jb51.net/css/468491.html" 
+  target="_blank">CSS美化半个字符的巧妙方法</A></LI>
+  <LI><A href="http://www.jb51.net/css/468338.html" 
+  target="_blank">深入理解DIV和SPAN的区别</A></LI>
+  <LI><A href="http://www.jb51.net/css/468330.html" 
+  target="_blank">设置层的漂移的简单实现方法</A></LI>
+  <LI><A href="http://www.jb51.net/css/468282.html" 
+  target="_blank">浅谈CSS块级元素与行内元素(内联元素)的区别和联系 </A></LI>
+  <LI><A href="http://www.jb51.net/css/468276.html" target="_blank">CSS 
+  实现垂直居中的几种方法(必看)</A></LI>
+  <LI><A href="http://www.jb51.net/css/467990.html" 
+  target="_blank">CSS属性text-overflow的使用问题</A></LI>
+  <LI><A href="http://www.jb51.net/css/467675.html" 
+  target="_blank">css图标与文字对齐的两种实现方法</A></LI></UL></DIV></DIV>
+<DIV class="r300 clearfix mt10"><SPAN class="jbTestPos" id="bd200"></SPAN> 
+</DIV>
+<DIV class="r300 clearfix mt10"><SPAN class="jbTestPos" 
+id="idctu2"></SPAN></DIV>
+<DIV class="mt10 rFixedBox"><SPAN class="jbTestPos" id="r_2"></SPAN> 
+</DIV></DIV><!--end fr-->       </DIV></DIV><!--end content--> 
+<DIV id="footer">
+<DIV class="main">
+<P><A href="http://www.jb51.net/about.htm" target="_blank">关于我们</A> -  <A href="http://www.jb51.net/support.htm" 
+target="_blank">广告合作</A> -  <A href="http://www.jb51.net/linkus.htm" target="_blank">联系我们</A> 
+-   <A href="http://www.jb51.net/sm.htm" target="_blank">免责声明</A> -   <A href="http://www.jb51.net/sitemap.htm" 
+target="_blank">网站地图</A> -  <A href="tencent://message/?uin=461478385&amp;Site=http://www.jb51.net" 
+target="_blank">投诉建议</A> -  <A href="http://www.jb51.net/up.htm" 
+target="_blank">在线投稿</A> </P>
+<P>&copy;CopyRight 2006-2016 JB51.Net Inc All Rights Reserved. 脚本之家 
+版权所有</P></DIV></DIV><!--end footer--> 
+<SCRIPT type="text/javascript"> 
+if (top.location != self.location)top.location=self.location;
+$('#content').find('img').each(function(){
+        var img = this;
+        if (img.width >= 650){
+            img.style.width = "650px";
+            img.style.height = "auto";
+            //$(img).removeAttr('height');
+            var aTag = document.createElement('a');
+            aTag.href = img.src;
+			aTag.target="_blank";
+            $(aTag).addClass('bPic')
+            .insertAfter(img).append(img)
+          }
+    });
+ $(window).scroll(function()
+    {	
+    	//rFixedBox跟随滚动
+    	var h = $(window).height();
+        var top = $(window).scrollTop();
+    	var rFixedBox = $('.rFixedBox').prev().offset();
+        var fixedTop = rFixedBox.top;
+		
+        if(top>=fixedTop+344)
+        {
+			var h1 = parseInt($('#content').children('.main').height());
+			if(parseInt(top) + 340 < h1){
+				$('.rFixedBox').css({'position':'fixed','top': 0});
+			}else{
+				$('.rFixedBox').css({'position':'absolute','top': h1-510});
+			}
+        }
+        else
+        {
+            $('.rFixedBox').css({'position':'static', 'top':0});   
+        }	
+       /* return true;*/
+    });
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</SCRIPT>
+ 
+<SCRIPT src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/jbLoader.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<SCRIPT>jbLoader();</SCRIPT>
+
+<SCRIPT class="closetag">jbLoader(true);</SCRIPT>
+ 
+<DIV id="tongji">
+<SCRIPT src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/tongji2.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT language="javascript" src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/count.htm" type="text/javascript"></SCRIPT>
+ </DIV>
+<SCRIPT>
+(function(){
+var appid = 'cyrHH3dwi',
+conf = 'prod_1dc5dc80970106099d43fe242b7465fc';
+var doc = document,
+s = doc.createElement('script'),
+h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+s.type = 'text/javascript';
+s.charset = 'utf-8';
+s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+h.insertBefore(s,h.firstChild);
+window.SCS_NO_IFRAME = true;
+})();
+
+</SCRIPT>
+ 
+<SCRIPT src="css控制UL%20LI%20的样式详解(推荐)_CSS教程_CSS_网页制作_脚本之家_files/js.js" type="text/javascript" charset="utf-8"></SCRIPT>
+ </DIV></BODY></HTML>
